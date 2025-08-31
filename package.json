@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "functions-framework --target=getRefreshToken"
+    "start": "functions-framework --target=generate"
   },
   "dependencies": {
     "@google-cloud/functions-framework": "^4.0.0",
+    "@google-cloud/storage": "^7.17.0",
     "googleapis": "^132.0.0"
   },
   "devDependencies": {
